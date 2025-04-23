@@ -28,10 +28,12 @@ The following hardware is needed (buy them via my affiliate links to support thi
 
 1) Download the latest `.exe` file of the
    application [here](https://github.com/Molodos/anycubic-nfc-filament/releases/latest)
-2) Start the application on your Windows device by just double-clicking it
-3) Open the web interface in your browser (e.g. Google Chrome) by entering http://localhost:8080 into the top bar
-4) Make sure that a [ACR122U](https://amzn.to/4h24oZQ) (affiliate link) is connected to your computer
-5) Done. Have fun using the software :)
+2) Install drivers for your reader (find ACR122U
+   drivers [here](https://www.acs.com.hk/en/driver/3/acr122u-usb-nfc-reader/))
+3) Start the application on your Windows device by just double-clicking it
+4) Open the web interface in your browser (e.g. Google Chrome) by entering http://localhost:8080 into the top bar
+5) Make sure that a [ACR122U](https://amzn.to/4h24oZQ) (affiliate link) is connected to your computer
+6) Done. Have fun using the software :)
 
 #### Generating the Executable File by Yourself
 
@@ -55,11 +57,13 @@ The following hardware is needed (buy them via my affiliate links to support thi
 3) Do the upcoming steps within the shell hust opened
 4) Install the requirements with the command `pip install -r requirements.txt` (try `pip3 install -r requirements.txt`
    if `pip` isn't found)
-5) Start the tool with the shell command `python -m anycubic_nfc_app` (try `python3 -m anycubic_nfc_app` if `python`
+5) Install drivers for your reader (find ACR122U
+   drivers [here](https://www.acs.com.hk/en/driver/3/acr122u-usb-nfc-reader/))
+6) Start the tool with the shell command `python -m anycubic_nfc_app` (try `python3 -m anycubic_nfc_app` if `python`
    isn't found)
-6) Open the web interface in your browser (e.g. Google Chrome) by entering http://localhost:8080 into the top bar
-7) Make sure that a [ACR122U](https://amzn.to/4h24oZQ) (affiliate link) is connected to your computer
-8) Done. Have fun using the software :)
+7) Open the web interface in your browser (e.g. Google Chrome) by entering http://localhost:8080 into the top bar
+8) Make sure that a [ACR122U](https://amzn.to/4h24oZQ) (affiliate link) is connected to your computer
+9) Done. Have fun using the software :)
 
 ## Supporting the Research
 

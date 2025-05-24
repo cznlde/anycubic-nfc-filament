@@ -89,6 +89,32 @@ filament_presets: dict[str, dict[str, Any]] = {
         "length": 330,
         "weight": 1000
     },
+    "PLA Wood": {
+        "type": "PLA Wood",
+        "range_a": {
+            "speed_min": 50,
+            "speed_max": 100,
+            "nozzle_min": 195,
+            "nozzle_max": 205
+        },
+        "range_b": {
+            "speed_min": 100,
+            "speed_max": 150,
+            "nozzle_min": 205,
+            "nozzle_max": 215
+        },
+        "range_c": {
+            "speed_min": 150,
+            "speed_max": 400,
+            "nozzle_min": 215,
+            "nozzle_max": 260
+        },
+        "bed_min": 50,
+        "bed_max": 60,
+        "diameter": 1.75,
+        "length": 330,
+        "weight": 1000
+    },
     "PLA Silk": {
         "type": "PLA Silk",
         "range_a": {
@@ -172,7 +198,7 @@ def root():
     Root page
     """
     return render_template("root.html", filament_presets=filament_presets,
-                           filament_types=SpoolReader.get_available_filament_types())
+                       filament_types=list(filament_presets.keys()))
 
 
 @socketio.on("ping")

@@ -17,7 +17,7 @@ A tool to create NFC tags compatible with the Anycubic ACE Pro for third party f
 > - Integrated personal workflow with Notion  
 > - Additional scripts for writing and reading Anycubic-compatible tags  
 >  
-> 📘 Companion project documentation (Dutch): [View in Notion](https://www.notion.so/1fc1e9ad7ba48093b805deba50a869ea)
+> 📘 Companion project documentation (Dutch): [View in Notion](https://tin-kip-ea8.notion.site/NFC-sticker-1fc1e9ad7ba48093b805deba50a869ea)
 
 ## Required Hardware
 

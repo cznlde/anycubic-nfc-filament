@@ -16,7 +16,9 @@ The following hardware is needed (buy them via my affiliate links to support thi
 - A supported reader from this list:
     - ACR122U NFC reader (recommended). Buy one [here](https://amzn.to/4h24oZQ) (affiliate link)
     - ACR1252U NFC reader (community-tested). Buy one [here](https://amzn.to/3E6WPUo) (affiliate link)
+    - ACR1552U NFC reader (community-tested). Buy one [here](https://amzn.to/4dwD4mv) (affiliate link)
 - NTAG213 NFC stickers. Buy some [here](https://amzn.to/4kzatQm) (affiliate link)
+    - (NTAG215 and NTAG216 probable also work)
 - (Optional) Reusable ACE Pro rings for cardboard spools with NFC sticker slot. Get the for
   free [here](https://makerworld.com/en/models/1266132-universal-cardboard-spool-adapter-ring-v2-nfc#profileId-1291900)
 
@@ -104,6 +106,12 @@ believe that it is a bug in the slicer that will also occur with official PLA+ f
 
 If the application fails to start, the error is the python version in most cases. Make sure to use version 3.11 or
 older. Newer versions can lead to crashes.
+
+### Is there support for writing other brands to the Tags?
+
+While brands are sort of written to the tags (e.g. the Tag contains `AC` for `Anycubic`), the information is not used by
+the slicer. Because of that, I did not add support for writing custom brands as they would not have any benefit but more
+like a risk that Anycubic could ignore non-Anycubic tags in the future.
 
 ### How can I use other NFC readers than the ACR122U?
 

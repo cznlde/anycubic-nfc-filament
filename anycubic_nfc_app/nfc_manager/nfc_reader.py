@@ -39,7 +39,8 @@ class NFCReader:
     # List of supported readers (each one has a list of strings that need to be part of its name)
     supported_readers: list[list[str]] = [
         ["acr122"],
-        ["acr1252", "picc"]  # The ACR1252 will be recognized as two readers: PICC and SAM (that one won`t work)
+        ["acr1252", "picc"],  # The ACR1252 will be recognized as two readers: PICC and SAM (SAM won`t work)
+        ["acr1552", "picc"],  # The ACR1252 will be recognized as two readers: PICC and SAM (SAM won`t work)
     ]
     preferred_reader: Optional[str] = None
 

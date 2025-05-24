@@ -7,6 +7,18 @@ A tool to create NFC tags compatible with the Anycubic ACE Pro for third party f
   <img src="readme_images/nfc_app_write.png" width="49%" />
 </p>
 
+> 🍏 **Note for macOS users**  
+> This fork includes extra support for **macOS (Apple Silicon)** using an ACR122U NFC reader with `pyscard`, tested on Python 3.11 and Visual Studio Code.  
+>  
+> 🔸 **Improvements in this version:**  
+> - macOS installation steps (Homebrew-based)  
+> - Support for `pyscard` and PCSC instead of `libusb`  
+> - Simplified VSCode workflow  
+> - Integrated personal workflow with Notion  
+> - Additional scripts for writing and reading Anycubic-compatible tags  
+>  
+> 📘 Companion project documentation (Dutch): [View in Notion](https://www.notion.so/1fc1e9ad7ba48093b805deba50a869ea)
+
 ## Required Hardware
 
 > Tip: Try to get the software up and running before buying the hardware to ensure that everything works fine
